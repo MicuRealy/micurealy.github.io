@@ -1,2 +1,0 @@
-# micurealy.github.io
-qwq
