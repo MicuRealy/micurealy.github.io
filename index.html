@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Micu Realy - 音乐主页</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Micu Realy</h1>
+        <p>电音制作人 / 独立音乐人</p>
+    </header>
+
+    <main>
+        <section class="music-player">
+            <h2>Micu Realy - Fallen Dream</h2>
+            <!-- 核心：新增了 loop 属性，让歌曲播放完后自动循环 -->
+            <audio controls loop>
+                <source src="music/Micu Realy - Fallen Dream.mp3" type="audio/mpeg">
+                你的浏览器不支持音频播放。
+            </audio>
+        </section>
+        <section class="music-player">
+            <h2>Micu Realy - Square Replay</h2>
+            <!-- 核心：同样新增了 loop 属性 -->
+            <audio controls loop>
+                <source src="music/Micu Realy - Square Replay.mp3" type="audio/mpeg">
+                你的浏览器不支持音频播放。
+            </audio>
+        </section>
+        <section class="about">
+            <h2>关于我</h2>
+            <p>受 Alan Walker、Elektronomia 影响，用 FL Studio 创作空灵电音。</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Micu Realy. All Rights Reserved.</p>
+    </footer>
+
+    <!-- 把 JS 放在这里，确保音频元素加载完毕后再执行脚本 -->
+    <script src="script.js"></script>
+</body>
+</html>
